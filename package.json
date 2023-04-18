@@ -1,0 +1,16 @@
+{
+  "name": "@rainbowatcher/renovate-config",
+  "version": "0.0.0",
+  "description": "Renovate Bot config for rainbowatcher repositories",
+  "license": "MIT",
+  "repository": "rainbowatcher/renovate-config",
+  "scripts": {
+    "test": "renovate-config-validator ./default.json"
+  },
+  "files": [
+    "default.json"
+  ],
+  "devDependencies": {
+    "renovate": "^35.32.1"
+  }
+}
