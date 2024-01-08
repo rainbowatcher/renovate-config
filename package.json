@@ -11,6 +11,6 @@
     "default.json"
   ],
   "devDependencies": {
-    "renovate": "^37.66.0"
+    "renovate": "^37.127.0"
   }
 }
