@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   renovate:
-    specifier: ^37.374.3
-    version: 37.374.3(@aws-sdk/client-sso-oidc@3.565.0)(@aws-sdk/client-sts@3.565.0)(typanion@3.12.1)
+    specifier: ^37.382.3
+    version: 37.382.3(@aws-sdk/client-sso-oidc@3.565.0)(@aws-sdk/client-sts@3.565.0)(typanion@3.12.1)
 
 packages:
 
@@ -1489,16 +1489,16 @@ packages:
       '@babel/runtime-corejs3': 7.20.13
     dev: true
 
-  /@redis/bloom@1.2.0(@redis/client@1.5.14):
+  /@redis/bloom@1.2.0(@redis/client@1.5.16):
     resolution: {integrity: sha512-HG2DFjYKbpNmVXsa0keLHp/3leGJz1mjh09f2RLGGLQZzSHpkmZWuwJbAvo3QcRY8p80m5+ZdXZdYOSBLlp7Cg==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.5.14
+      '@redis/client': 1.5.16
     dev: true
 
-  /@redis/client@1.5.14:
-    resolution: {integrity: sha512-YGn0GqsRBFUQxklhY7v562VMOP0DcmlrHHs3IV1mFE3cbxe31IITUkqhBcIhVSI/2JqtWAJXg5mjV4aU+zD0HA==}
+  /@redis/client@1.5.16:
+    resolution: {integrity: sha512-X1a3xQ5kEMvTib5fBrHKh6Y+pXbeKXqziYuxOUo1ojQNECg4M5Etd1qqyhMap+lFUOAh8S7UYevgJHOm4A+NOg==}
     engines: {node: '>=14'}
     dependencies:
       cluster-key-slot: 1.1.2
@@ -1506,36 +1506,36 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /@redis/graph@1.1.1(@redis/client@1.5.14):
+  /@redis/graph@1.1.1(@redis/client@1.5.16):
     resolution: {integrity: sha512-FEMTcTHZozZciLRl6GiiIB4zGm5z5F3F6a6FZCyrfxdKOhFlGkiAqlexWMBzCi4DcRoyiOsuLfW+cjlGWyExOw==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.5.14
+      '@redis/client': 1.5.16
     dev: true
 
-  /@redis/json@1.0.6(@redis/client@1.5.14):
+  /@redis/json@1.0.6(@redis/client@1.5.16):
     resolution: {integrity: sha512-rcZO3bfQbm2zPRpqo82XbW8zg4G/w4W3tI7X8Mqleq9goQjAGLL7q/1n1ZX4dXEAmORVZ4s1+uKLaUOg7LrUhw==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.5.14
+      '@redis/client': 1.5.16
     dev: true
 
-  /@redis/search@1.1.6(@redis/client@1.5.14):
+  /@redis/search@1.1.6(@redis/client@1.5.16):
     resolution: {integrity: sha512-mZXCxbTYKBQ3M2lZnEddwEAks0Kc7nauire8q20oA0oA/LoA+E/b5Y5KZn232ztPb1FkIGqo12vh3Lf+Vw5iTw==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.5.14
+      '@redis/client': 1.5.16
     dev: true
 
-  /@redis/time-series@1.0.5(@redis/client@1.5.14):
+  /@redis/time-series@1.0.5(@redis/client@1.5.16):
     resolution: {integrity: sha512-IFjIgTusQym2B5IZJG3XKr5llka7ey84fw/NOYqESP5WUfQs9zz1ww/9+qoz4ka/S6KcGBodzlCeZ5UImKbscg==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.5.14
+      '@redis/client': 1.5.16
     dev: true
 
   /@renovatebot/kbpgp@3.0.1:
@@ -2218,7 +2218,7 @@ packages:
       ci-info: 3.6.1
       clipanion: 4.0.0-rc.2(typanion@3.12.1)
       cross-spawn: 7.0.3
-      diff: 5.1.0
+      diff: 5.2.0
       dotenv: 16.3.1
       fast-glob: 3.2.12
       got: 11.8.6
@@ -2417,8 +2417,8 @@ packages:
       possible-typed-array-names: 1.0.0
     dev: true
 
-  /aws4@1.12.0:
-    resolution: {integrity: sha512-NmWvPnx0F1SfrQbYwOi7OeaNGokp9XhzNioJ/CSBs8Qa4vxug81mhJEAVZwxXuBmYB5KDRfMq/F3RR0BIU7sWg==}
+  /aws4@1.13.0:
+    resolution: {integrity: sha512-3AungXC4I8kKsS9PuS4JH2nc+0bVY/mjgrephHTIi8fpEeGsTHBUJeosp0Wc1myYMElmD0B3Oc4XL/HVJ4PV2g==}
     dev: true
 
   /azure-devops-node-api@13.0.0:
@@ -2565,7 +2565,7 @@ packages:
     dependencies:
       '@npmcli/fs': 3.1.0
       fs-minipass: 3.0.1
-      glob: 10.3.15
+      glob: 10.4.1
       lru-cache: 10.2.2
       minipass: 7.0.4
       minipass-collect: 2.0.1
@@ -2735,8 +2735,8 @@ packages:
     engines: {node: '>=16'}
     dev: true
 
-  /commander@12.0.0:
-    resolution: {integrity: sha512-MwVNWlYjDTtOjX5PiD7o5pK0UrFU/OYgcJfjjK4RaHZETNtjJqrZa9Y9ds88+A+f+d5lv+561eZ+yCKoS3gbAA==}
+  /commander@12.1.0:
+    resolution: {integrity: sha512-Vw8qHK3bZM9y/P10u3Vib8o/DdkvA2OtPtZvD871QKjy74Wj1WSKFILMPRPSdUSx5RFK1arlJzEtA4PkFgnbuA==}
     engines: {node: '>=18'}
     dev: true
 
@@ -2945,8 +2945,8 @@ packages:
     resolution: {integrity: sha512-T0NIuQpnTvFDATNuHN5roPwSBG83rFsuO+MXXH9/3N1eFbn4wcPjttvjMLEPWJ0RGUYgQE7cGgS3tNxbqCGM7g==}
     dev: true
 
-  /diff@5.1.0:
-    resolution: {integrity: sha512-D+mk+qE8VC/PAUrlAU34N+VfXev0ghe5ywmpqrawphmVZc1bEfn56uo9qpyGp1p4xpzOHkSW4ztBd6L7Xx4ACw==}
+  /diff@5.2.0:
+    resolution: {integrity: sha512-uIFDxqpRZGZ6ThOk84hEfqWoHx2devRFvpTZcTHur85vImfaxUbTW9Ryh4CpCuDnToOP1CEtXKIgytHBPVff5A==}
     engines: {node: '>=0.3.1'}
     dev: true
 
@@ -3471,20 +3471,21 @@ packages:
       is-glob: 4.0.3
     dev: true
 
-  /glob@10.3.15:
-    resolution: {integrity: sha512-0c6RlJt1TICLyvJYIApxb8GsXoai0KUP7AxKKAtsYXdgJR1mGEUa7DgwShbdk1nly0PYoZj01xd4hzbq3fsjpw==}
+  /glob@10.4.1:
+    resolution: {integrity: sha512-2jelhlq3E4ho74ZyVLN03oKdAZVUa6UDZzFLVH1H7dnoax+y9qyaq8zBkfDIggjniU19z0wU18y16jMB2eyVIw==}
     engines: {node: '>=16 || 14 >=14.18'}
     hasBin: true
     dependencies:
       foreground-child: 3.1.1
-      jackspeak: 2.3.6
+      jackspeak: 3.1.2
       minimatch: 9.0.4
-      minipass: 7.0.4
+      minipass: 7.1.2
       path-scurry: 1.11.1
     dev: true
 
   /glob@6.0.4:
     resolution: {integrity: sha512-MKZeRNyYZAVVVG1oZeLaWie1uweH40m9AZwIwxyPbTSX4hHrVYSzLg0Ro5Z5R7XKkIX+Cc6oD1rqeDJnwsB8/A==}
+    deprecated: Glob versions prior to v9 are no longer supported
     requiresBuild: true
     dependencies:
       inflight: 1.0.6
@@ -3779,6 +3780,7 @@ packages:
 
   /inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
     requiresBuild: true
     dependencies:
       once: 1.4.0
@@ -3796,8 +3798,8 @@ packages:
     dev: true
     optional: true
 
-  /ini@4.1.2:
-    resolution: {integrity: sha512-AMB1mvwR1pyBFY/nSevUX6y8nJWS63/SzUKD3JyQn97s4xgIdgQPT75IRouIiBAN4yLQBUShNYVW0+UG25daCw==}
+  /ini@4.1.3:
+    resolution: {integrity: sha512-X7rqawQBvfdjS10YU1y1YVreA3SsLrW9dX2CewP2EbBJM4ypVNLDkO5y04gejPwKIY9lR+7r9gn3rFPt/kmWFg==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dev: true
 
@@ -4073,8 +4075,8 @@ packages:
     dev: true
     optional: true
 
-  /jackspeak@2.3.6:
-    resolution: {integrity: sha512-N3yCS/NegsOBokc8GAdM8UcmfsKiSS8cipheD/nivzr700H+nsMOxJjQnvwOcRYVuFkdH0wGUvW2WbXGmrZGbQ==}
+  /jackspeak@3.1.2:
+    resolution: {integrity: sha512-kWmLKn2tRtfYMF/BakihVVRzBKOxz4gJMiL2Rj91WnAB5TPZumSH99R/Yf1qE1u4uRimvCSJfm6hnxohXeEXjQ==}
     engines: {node: '>=14'}
     dependencies:
       '@isaacs/cliui': 8.0.2
@@ -4545,6 +4547,11 @@ packages:
     engines: {node: '>=16 || 14 >=14.17'}
     dev: true
 
+  /minipass@7.1.2:
+    resolution: {integrity: sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw==}
+    engines: {node: '>=16 || 14 >=14.17'}
+    dev: true
+
   /minizlib@2.1.2:
     resolution: {integrity: sha512-bAxsR8BVfj60DWXHE3u30oHzfl4G7khkSuPW+qvpd7jFRHm7dLxOjUk1EHACJ/hxLY8phGJ0YhYHZo7jil7Qdg==}
     engines: {node: '>= 8'}
@@ -4678,7 +4685,7 @@ packages:
     dependencies:
       env-paths: 2.2.1
       exponential-backoff: 3.1.1
-      glob: 10.3.15
+      glob: 10.4.1
       graceful-fs: 4.2.10
       make-fetch-happen: 13.0.0
       nopt: 7.2.0
@@ -4934,7 +4941,7 @@ packages:
     engines: {node: '>=16 || 14 >=14.18'}
     dependencies:
       lru-cache: 10.2.2
-      minipass: 7.0.4
+      minipass: 7.1.2
     dev: true
 
   /pend@1.2.0:
@@ -5133,15 +5140,15 @@ packages:
       strip-indent: 3.0.0
     dev: true
 
-  /redis@4.6.13:
-    resolution: {integrity: sha512-MHgkS4B+sPjCXpf+HfdetBwbRz6vCtsceTmw1pHNYJAsYxrfpOP6dz+piJWGos8wqG7qb3vj/Rrc5qOlmInUuA==}
+  /redis@4.6.14:
+    resolution: {integrity: sha512-GrNg/e33HtsQwNXL7kJT+iNFPSwE1IPmd7wzV3j4f2z0EYxZfZE7FVTmUysgAtqQQtg5NXF5SNLR9OdO/UHOfw==}
     dependencies:
-      '@redis/bloom': 1.2.0(@redis/client@1.5.14)
-      '@redis/client': 1.5.14
-      '@redis/graph': 1.1.1(@redis/client@1.5.14)
-      '@redis/json': 1.0.6(@redis/client@1.5.14)
-      '@redis/search': 1.1.6(@redis/client@1.5.14)
-      '@redis/time-series': 1.0.5(@redis/client@1.5.14)
+      '@redis/bloom': 1.2.0(@redis/client@1.5.16)
+      '@redis/client': 1.5.16
+      '@redis/graph': 1.1.1(@redis/client@1.5.16)
+      '@redis/json': 1.0.6(@redis/client@1.5.16)
+      '@redis/search': 1.1.6(@redis/client@1.5.16)
+      '@redis/time-series': 1.0.5(@redis/client@1.5.16)
     dev: true
 
   /regenerator-runtime@0.13.11:
@@ -5190,8 +5197,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.374.3(@aws-sdk/client-sso-oidc@3.565.0)(@aws-sdk/client-sts@3.565.0)(typanion@3.12.1):
-    resolution: {integrity: sha512-gP94W4RpxK+bA8QRq2FWFPSDOb24AL2XZArRGr82dF9Zg22hqS6jWTyXNUCnTWNCshP/Vknflcne0eheLOT2tQ==}
+  /renovate@37.382.3(@aws-sdk/client-sso-oidc@3.565.0)(@aws-sdk/client-sts@3.565.0)(typanion@3.12.1):
+    resolution: {integrity: sha512-iACgBIc7vCQ/0gNGyX3C1EjGiaoupidvbVmGJtezpgjbf4fQTR7H8iWFm24xDzcIDFdShlBNgLjGcnvoNRxIJg==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^9.0.0}
     hasBin: true
     dependencies:
@@ -5224,7 +5231,7 @@ packages:
       agentkeepalive: 4.5.0
       aggregate-error: 3.1.0
       auth-header: 1.0.0
-      aws4: 1.12.0
+      aws4: 1.13.0
       azure-devops-node-api: 13.0.0
       bunyan: 1.8.15
       cacache: 18.0.3
@@ -5232,12 +5239,13 @@ packages:
       chalk: 4.1.2
       changelog-filename-regex: 2.0.1
       clean-git-ref: 2.0.1
-      commander: 12.0.0
+      commander: 12.1.0
       conventional-commits-detector: 1.0.3
       cron-parser: 4.9.0
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 6.1.0
+      diff: 5.2.0
       editorconfig: 2.0.0
       email-addresses: 5.0.0
       emoji-regex: 10.3.0
@@ -5249,7 +5257,7 @@ packages:
       fs-extra: 11.2.0
       git-url-parse: 14.0.0
       github-url-from-git: 1.5.0
-      glob: 10.3.15
+      glob: 10.4.1
       global-agent: 3.0.0
       good-enough-parser: 1.1.23
       google-auth-library: 9.10.0
@@ -5257,7 +5265,7 @@ packages:
       graph-data-structure: 3.5.0
       handlebars: 4.7.8
       ignore: 5.3.1
-      ini: 4.1.2
+      ini: 4.1.3
       js-yaml: 4.1.0
       json-dup-key-validator: 1.0.3
       json-stringify-pretty-compact: 3.0.0
@@ -5280,7 +5288,7 @@ packages:
       p-throttle: 4.1.1
       parse-link-header: 2.0.0
       prettier: 3.2.5
-      redis: 4.6.13
+      redis: 4.6.14
       remark: 13.0.0
       remark-github: 10.1.0
       safe-stable-stringify: 2.4.3
@@ -5362,6 +5370,7 @@ packages:
 
   /rimraf@2.4.5:
     resolution: {integrity: sha512-J5xnxTyqaiw06JjMftq7L9ouA448dw/E7dKghkP9WpKNuwmARNNg+Gk8/u5ryb9N/Yo2+z3MCwuqFK/+qPOPfQ==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
     requiresBuild: true
     dependencies:
