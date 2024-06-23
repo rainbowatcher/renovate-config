@@ -9,20 +9,20 @@ importers:
   .:
     devDependencies:
       '@rainbowatcher/eslint-config':
-        specifier: ^0.8.0
-        version: 0.8.0(@rainbowatcher/eslint-config-ignore@0.8.0)(@rainbowatcher/eslint-config-js@0.8.0(eslint@9.4.0)(typescript@5.4.5))(@rainbowatcher/eslint-config-json@0.8.0(eslint@9.4.0))(eslint@9.4.0)
+        specifier: ^0.9.1
+        version: 0.9.1(@rainbowatcher/eslint-config-ignore@0.9.1)(@rainbowatcher/eslint-config-js@0.9.1(eslint@9.4.0)(typescript@5.4.5))(@rainbowatcher/eslint-config-json@0.9.1(eslint@9.4.0))(eslint@9.4.0)
       '@rainbowatcher/eslint-config-ignore':
-        specifier: ^0.8.0
-        version: 0.8.0
+        specifier: ^0.9.1
+        version: 0.9.1
       '@rainbowatcher/eslint-config-js':
-        specifier: ^0.8.0
-        version: 0.8.0(eslint@9.4.0)(typescript@5.4.5)
+        specifier: ^0.9.1
+        version: 0.9.1(eslint@9.4.0)(typescript@5.4.5)
       '@rainbowatcher/eslint-config-json':
-        specifier: ^0.8.0
-        version: 0.8.0(eslint@9.4.0)
+        specifier: ^0.9.1
+        version: 0.9.1(eslint@9.4.0)
       renovate:
-        specifier: ^37.407.3
-        version: 37.407.3(@aws-sdk/client-sso-oidc@3.592.0)(encoding@0.1.13)(typanion@3.12.1)
+        specifier: ^37.414.1
+        version: 37.414.1(@aws-sdk/client-sso-oidc@3.592.0)(encoding@0.1.13)(typanion@3.12.1)
 
 packages:
 
@@ -340,6 +340,10 @@ packages:
     resolution: {integrity: sha512-fdI7VJjP3Rvc70lC4xkFXHB0fiPeojiL1PxVG6t1ZvXQrarj893PweuBTujxDUFk0Fxj4R7PIIAZ/aiiyZPZcg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
+  '@eslint/js@9.5.0':
+    resolution: {integrity: sha512-A7+AOT2ICkodvtsWnxZP4Xxk3NbZ3VMHd8oihydLRGrJgqqdEz1qSeEgXYyT/Cu8h1TWWsQRejIx48mtjZ5y1w==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
   '@eslint/object-schema@2.1.3':
     resolution: {integrity: sha512-HAbhAYKfsAC2EkTqve00ibWIZlaU74Z1EHwAjYr4PXF0YU2VEA1zSIKSSpKszRLRWwHzzRZXvK632u+uXzvsvw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
@@ -622,35 +626,35 @@ packages:
   '@qnighy/marshal@0.1.3':
     resolution: {integrity: sha512-uaDZTJYtD2UgQTGemmgWeth+e2WapZm+GkAq8UU8AJ55PKRFaf1GkH7X/uzA+Ygu8iInzIlM2FGyCUnruyMKMg==}
 
-  '@rainbowatcher/eslint-config-ignore@0.8.0':
-    resolution: {integrity: sha512-xW7RDhhQuCbc/fP0LiJO5ZMtjK+59sPOneXreyh4cboUkB4YTK1tFiJxxx+hlK2OfIuEi0rG6h6jlBKCx4XVJw==}
+  '@rainbowatcher/eslint-config-ignore@0.9.1':
+    resolution: {integrity: sha512-ld3G2pZJgOxmV52SH+cmFlIqhYt9ewpiC0RVTCyAcZoVsbuaxrf4lvw/F32xu3grV2qlp3xfAFpICCPnmolaQw==}
 
-  '@rainbowatcher/eslint-config-js@0.8.0':
-    resolution: {integrity: sha512-Z/bDKv5vDAzseOmSPiUVzk7DvvuT7vscyLEozuGmB4zm4bMTXDE5/1CPpmkCm9+8iLkztFTt/+QpvTJd5TanYw==}
+  '@rainbowatcher/eslint-config-js@0.9.1':
+    resolution: {integrity: sha512-rxTNpgfEy15GWUtDo+GqF97cAv9w8G9tJWrb2psWUT1ac+PU8YOmfPsImdX+yaJkTPf5xcqoojjU6yYrG7RfrQ==}
     peerDependencies:
-      eslint: '>=9.3.0'
+      eslint: '>=9.5.0'
 
-  '@rainbowatcher/eslint-config-json@0.8.0':
-    resolution: {integrity: sha512-GDTNTwtdXRHy23j4BX5gGg7AwlcVsTvsXsavQnVtpguESDdnCVg18sSrp5djHdkXDMgh7IaZTIEZ4J1x0AfQIw==}
+  '@rainbowatcher/eslint-config-json@0.9.1':
+    resolution: {integrity: sha512-gd3vLcGuJHGwC+85jB3E50BBY1K37jtwkVHb2ryTgsZ0g9yot0maJnhmqWLwvaljxMufmtFiQt0PaKsm2FLrSQ==}
     peerDependencies:
-      eslint: '>=9.3.0'
+      eslint: '>=9.5.0'
 
-  '@rainbowatcher/eslint-config-shared@0.8.0':
-    resolution: {integrity: sha512-cE5BrN88gvC7j0T5mb/5UzEibSZHGP+nlXdrJ1FMpn7/YtpF1yRJRUxwUPHPKCM34uL7+p37ZrSohDb+dlrlQQ==}
+  '@rainbowatcher/eslint-config-shared@0.9.1':
+    resolution: {integrity: sha512-mezo+YIKGpITTukAINvbM6nWOYi3tuBV842usvvvb3gxLBsvxDLnIlAuzXN3rnRXX4Ich96Hm0wizca41s6W5A==}
 
-  '@rainbowatcher/eslint-config@0.8.0':
-    resolution: {integrity: sha512-AVNXgOeUNU0meC/pcZbVonSfz9s4WaM2ArCGQ6+4zCMCXKZR3y5nLaLrFAbtMyo1D7hv56H38sMyR7Ku9oggcg==}
+  '@rainbowatcher/eslint-config@0.9.1':
+    resolution: {integrity: sha512-2Zg3J00TdGvtFnvN6n02R2tLkqcSYizd9c97d55Hyjt+plzancAqaMUzkQk8aYklJ6INDvrLPBCAPCqOr96VGg==}
     hasBin: true
     peerDependencies:
-      '@rainbowatcher/eslint-config-ignore': 0.8.0
-      '@rainbowatcher/eslint-config-js': 0.8.0
-      '@rainbowatcher/eslint-config-json': 0.8.0
-      '@rainbowatcher/eslint-config-md': 0.8.0
-      '@rainbowatcher/eslint-config-prettier': 0.8.0
-      '@rainbowatcher/eslint-config-ts': 0.8.0
-      '@rainbowatcher/eslint-config-unocss': 0.8.0
-      '@rainbowatcher/eslint-config-vue': 0.8.0
-      eslint: '>=9.3.0'
+      '@rainbowatcher/eslint-config-ignore': 0.9.1
+      '@rainbowatcher/eslint-config-js': 0.9.1
+      '@rainbowatcher/eslint-config-json': 0.9.1
+      '@rainbowatcher/eslint-config-md': 0.9.1
+      '@rainbowatcher/eslint-config-prettier': 0.9.1
+      '@rainbowatcher/eslint-config-ts': 0.9.1
+      '@rainbowatcher/eslint-config-unocss': 0.9.1
+      '@rainbowatcher/eslint-config-vue': 0.9.1
+      eslint: '>=9.5.0'
     peerDependenciesMeta:
       '@rainbowatcher/eslint-config-ignore':
         optional: true
@@ -1049,19 +1053,19 @@ packages:
     resolution: {integrity: sha512-uZk7DevrQLL3vSnfFl5bj4sL75qC9D6EdjemIdbtkuUmIheWpuiiylSY01JxJE7+zGrOWDZrp1WxOuDntvKrHQ==}
     engines: {node: ^18.18.0 || >=20.0.0}
 
-  '@yarnpkg/core@4.0.5':
-    resolution: {integrity: sha512-6ib9l8P30GxHvxZo3170hr5PCy2qQnI4N4lXwNJxJnV0i46UlgLA4hlGp/kFVttteATGeckfduIDyWZgjn9sPw==}
+  '@yarnpkg/core@4.1.0':
+    resolution: {integrity: sha512-8O+afZvv6qDK2TfwBat2uHw49DwpLk0KzL+wY/C5dlEqUxLXClYs1zNmQo2lj4g7JuZmCPxYGblzjacizWYLTg==}
     engines: {node: '>=18.12.0'}
 
-  '@yarnpkg/fslib@3.0.2':
-    resolution: {integrity: sha512-dqSpZCj9ZeqMZzITHvpi5qKS9MCLWZYCl6NHCSl3a+BqiyLApehWAy60zjv9F1fxKZ6RKDgHLhBWhx8RwPm6Dw==}
+  '@yarnpkg/fslib@3.1.0':
+    resolution: {integrity: sha512-wsj7/sUVSdXOIX/qwaON/Ky5GsP5gs9ry9DKwgLbWT7k3qw4/EcHAtfTtPhBYu33UibzBFI+fgB4wBRVH2XVaw==}
     engines: {node: '>=18.12.0'}
 
-  '@yarnpkg/libzip@3.0.1':
-    resolution: {integrity: sha512-fiqRLk2fyd2r34/Qc7HlP8fKIo1CK5CZpLNObJwnbFmZQN2hVanovFlG++3oH3qYJymEmjPl5EGsygcEJZl4Pg==}
+  '@yarnpkg/libzip@3.1.0':
+    resolution: {integrity: sha512-x66/F8wEOUL8Hi4NZFVVKCFNITN0keQt0ZNlY5V9dRb+judyO8aJv4hazO3WyblnGhClvuBPbx+a2X4LNS5ziA==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
-      '@yarnpkg/fslib': ^3.0.2
+      '@yarnpkg/fslib': ^3.1.0
 
   '@yarnpkg/parsers@3.0.2':
     resolution: {integrity: sha512-/HcYgtUSiJiot/XWGLOlGxPYUG65+/31V8oqk17vZLW1xlCoR4PampyePljOxY2n8/3jz9+tIFzICsyGujJZoA==}
@@ -1085,11 +1089,6 @@ packages:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
     peerDependencies:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
-
-  acorn@8.10.0:
-    resolution: {integrity: sha512-F0SAmZ8iUtS//m8DmCTA0jlh6TDKkHQyK6xc6V4KDTyZKA9dnvX9/3sRTVQrWm79glUAZbnmmNcdYwUIHWVybw==}
-    engines: {node: '>=0.4.0'}
-    hasBin: true
 
   acorn@8.11.3:
     resolution: {integrity: sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==}
@@ -1446,6 +1445,15 @@ packages:
       supports-color:
         optional: true
 
+  debug@4.3.5:
+    resolution: {integrity: sha512-pt0bNEmneDIvdL1Xsd9oDQ/wrQRkXDT4AUWlNZNPKvW5x/jyO9VFXkJUP07vQ2upmw5PlaITaPKc31jK13V+jg==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+
   decamelize-keys@1.1.1:
     resolution: {integrity: sha512-WiPxgEirIV0/eIOMcnFBA3/IJZAZqKnwAwWyvvdi4lsr1WCN22nhdf/3db3DoZcUjTV2SqfzIwNyp6y2xs3nmg==}
     engines: {node: '>=0.10.0'}
@@ -1566,8 +1574,8 @@ packages:
   emoji-regex@9.2.2:
     resolution: {integrity: sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==}
 
-  emojibase-regex@15.3.1:
-    resolution: {integrity: sha512-r+uRiuWvLdo2C8RAID7zhzNpwh3DjxM4hDP7pI096X/gjBCtBu0nH1iLXdLq4D5KWA5ZT/dJmexmUlovTef7wQ==}
+  emojibase-regex@15.3.2:
+    resolution: {integrity: sha512-ue6BVeb2qu33l97MkxcOoyMJlg6Tug3eTv2z1at+M9TjvlWKvdmAPvZIDG1JbT2RH3FSyJNLucO5K5H/yxT03w==}
 
   emojibase@15.3.1:
     resolution: {integrity: sha512-GNsjHnG2J3Ktg684Fs/vZR/6XpOSkZPMAv85EHrr6br2RN2cJNwdS4am/3YSK3y+/gOv2kmoK3GGdahXdMxg2g==}
@@ -1676,19 +1684,19 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
 
-  eslint-plugin-n@17.8.1:
-    resolution: {integrity: sha512-KdG0h0voZms8UhndNu8DeWx1eM4sY+A4iXtsNo6kOfJLYHNeTGPacGalJ9GcvrbmOL3r/7QOMwVZDSw+1SqsrA==}
+  eslint-plugin-n@17.9.0:
+    resolution: {integrity: sha512-CPSaXDXdrT4nsrOrO4mT4VB6FMUkoySRkHWuuJJHVqsIEjIeZgMY1H7AzSwPbDScikBmLN82KeM1u7ixV7PzGg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.23.0'
 
-  eslint-plugin-perfectionist@2.10.0:
-    resolution: {integrity: sha512-P+tdrkHeMWBc55+DZsoDOAftV1WCsEoHaKm6JC7zajFus/syfT4vUPBFb3atGFSuyaVnGQGHlcKpP9X3Q0gH/w==}
+  eslint-plugin-perfectionist@2.11.0:
+    resolution: {integrity: sha512-XrtBtiu5rbQv88gl+1e2RQud9te9luYNvKIgM9emttQ2zutHPzY/AQUucwxscDKV4qlTkvLTxjOFvxqeDpPorw==}
     peerDependencies:
-      astro-eslint-parser: ^0.16.0
+      astro-eslint-parser: ^1.0.2
       eslint: '>=8.0.0'
       svelte: '>=3.0.0'
-      svelte-eslint-parser: ^0.33.0
+      svelte-eslint-parser: ^0.37.0
       vue-eslint-parser: '>=9.0.0'
     peerDependenciesMeta:
       astro-eslint-parser:
@@ -1706,8 +1714,8 @@ packages:
     peerDependencies:
       eslint: '>=8.44.0'
 
-  eslint-plugin-unicorn@53.0.0:
-    resolution: {integrity: sha512-kuTcNo9IwwUCfyHGwQFOK/HjJAYzbODHN3wP0PgqbW+jbXqpNWxNVpVhj2tO9SixBwuAdmal8rVcWKBxwFnGuw==}
+  eslint-plugin-unicorn@54.0.0:
+    resolution: {integrity: sha512-XxYLRiYtAWiAjPv6z4JREby1TAE2byBC7wlh0V4vWDCpccOSU1KovWV//jqPXF6bq3WKxqX9rdjoRQ1EhdmNdQ==}
     engines: {node: '>=18.18'}
     peerDependencies:
       eslint: '>=8.56.0'
@@ -1964,8 +1972,8 @@ packages:
     resolution: {integrity: sha512-QUcQZutczESpdo2w9BMG6VpLFoq9ix7ER5HLM1mAdZdri2F3eISkCb8ep84W6YOo0grYWJdyT/8JkYqGjQfSSQ==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
 
-  google-auth-library@9.10.0:
-    resolution: {integrity: sha512-ol+oSa5NbcGdDqA+gZ3G3mev59OHBZksBTxY/tYwjtcp1H/scAFwJfSQU9/1RALoyZ7FslNbke8j4i3ipwlyuQ==}
+  google-auth-library@9.11.0:
+    resolution: {integrity: sha512-epX3ww/mNnhl6tL45EQ/oixsY8JLEgUFoT4A5E/5iAR4esld9Kqv6IJGk7EmGuOgDvaarwF95hU2+v7Irql9lw==}
     engines: {node: '>=14'}
 
   gopd@1.0.1:
@@ -2624,6 +2632,9 @@ packages:
   nan@2.19.0:
     resolution: {integrity: sha512-nO1xXxfh/RWNxfd/XPfbIfFk5vgLsAxUR9y5O0cHMJu/AW9U95JLXqthYHjEp+8gQ5p96K9jUp8nbVOxCdRbtw==}
 
+  nan@2.20.0:
+    resolution: {integrity: sha512-bk3gXBZDGILuuo/6sKtr0DQmSThYHLtNCdSdXk9YkxD/jK6X2vmCyyXBBxyqZ4XcnzTyYEAThfX3DCEnLf6igw==}
+
   nanoid@3.3.7:
     resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
@@ -2873,8 +2884,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier@3.3.1:
-    resolution: {integrity: sha512-7CAwy5dRsxs8PHXT3twixW9/OEll8MLE0VRPCJyl7CkS6VHGPSlsVaWTiASPTyGyYRyApxlaWTzwUxVNrhcwDg==}
+  prettier@3.3.2:
+    resolution: {integrity: sha512-rAVeHYMcv8ATV5d508CFdn+8/pHPpXeIid1DdrPwXnaAdH7cqjVbpJaT5eq4yRAFU/lsbwYwSF/n5iNrdJHPQA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2934,8 +2945,8 @@ packages:
     resolution: {integrity: sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==}
     hasBin: true
 
-  re2@1.20.12:
-    resolution: {integrity: sha512-pfCHx+j0agxahWorhQZ2hyaZh/LH2e/vpoAilggksI3fFt+62oF0AY7UP7uvmpWleYLy6UoBTz4r/Kif0LfB/g==}
+  re2@1.21.3:
+    resolution: {integrity: sha512-GI+KoGkHT4kxTaX+9p0FgNB1XUnCndO9slG5qqeEoZ7kbf6Dk6ohQVpmwKVeSp7LPLn+g6Q3BaCopz4oHuBDuQ==}
 
   read-pkg-up@7.0.1:
     resolution: {integrity: sha512-zK0TB7Xd6JpCLmlLmufqykGE+/TlOePD6qKClNW7hHDKFh/J7/7gCWGR7joEQEW1bKq3a3yUZSObOoWLFQ4ohg==}
@@ -2998,8 +3009,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@37.407.3:
-    resolution: {integrity: sha512-/bOa0T1NgRSGnP0gNQF4dCLtRHrxqc/zdvQSLfFlIszClHuQYjk4uBn3JaSXysX5jvOikA3Xr+BEWLto7DHR7A==}
+  renovate@37.414.1:
+    resolution: {integrity: sha512-qaMUaNnu9mHqy4HcQ4/mLdZNRiR9Q3JiZDaeuoKh/DC+Bqm67t3q2pht18bBBiiib6GBZZGSdhtbkIavLrmWqw==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -3144,8 +3155,8 @@ packages:
   simple-get@4.0.1:
     resolution: {integrity: sha512-brv7p5WgH0jmQJr1ZDDfKDOSeWWg+OVypG99A/5vYGPqJ6pxiaHLy8nxtFjBA7oMa01ebA9gfh1uMCFqOuXxvA==}
 
-  simple-git@3.24.0:
-    resolution: {integrity: sha512-QqAKee9Twv+3k8IFOFfPB2hnk6as6Y6ACUpwCtQvRYBAes23Wv3SZlHVobAzqcE8gfsisCvPw3HGW3HYM+VYYw==}
+  simple-git@3.25.0:
+    resolution: {integrity: sha512-KIY5sBnzc4yEcJXW7Tdv4viEz8KyG+nU0hay+DWZasvdFOYKeUZ6Xc25LUHHjw0tinPT7O1eY6pzX7pRT1K8rw==}
 
   sisteransi@1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
@@ -3360,9 +3371,6 @@ packages:
 
   tslib@1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
-
-  tslib@2.6.2:
-    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
 
   tslib@2.6.3:
     resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
@@ -4076,7 +4084,7 @@ snapshots:
       '@smithy/util-middleware': 3.0.0
       '@smithy/util-retry': 3.0.0
       '@smithy/util-utf8': 3.0.0
-      tslib: 2.6.2
+      tslib: 2.6.3
     transitivePeerDependencies:
       - aws-crt
 
@@ -4162,7 +4170,7 @@ snapshots:
       '@smithy/util-middleware': 3.0.0
       '@smithy/util-retry': 3.0.0
       '@smithy/util-utf8': 3.0.0
-      tslib: 2.6.2
+      tslib: 2.6.3
     transitivePeerDependencies:
       - aws-crt
 
@@ -4252,7 +4260,7 @@ snapshots:
       '@smithy/util-middleware': 3.0.0
       '@smithy/util-retry': 3.0.0
       '@smithy/util-utf8': 3.0.0
-      tslib: 2.6.2
+      tslib: 2.6.3
     transitivePeerDependencies:
       - aws-crt
 
@@ -4274,7 +4282,7 @@ snapshots:
       '@smithy/smithy-client': 3.1.1
       '@smithy/types': 3.0.0
       fast-xml-parser: 4.2.5
-      tslib: 2.6.2
+      tslib: 2.6.3
 
   '@aws-sdk/credential-provider-cognito-identity@3.588.0':
     dependencies:
@@ -4354,7 +4362,7 @@ snapshots:
       '@smithy/property-provider': 3.1.0
       '@smithy/shared-ini-file-loader': 3.1.0
       '@smithy/types': 3.0.0
-      tslib: 2.6.2
+      tslib: 2.6.3
     transitivePeerDependencies:
       - '@aws-sdk/client-sso-oidc'
       - aws-crt
@@ -4410,7 +4418,7 @@ snapshots:
       '@smithy/property-provider': 3.1.0
       '@smithy/shared-ini-file-loader': 3.1.0
       '@smithy/types': 3.0.0
-      tslib: 2.6.2
+      tslib: 2.6.3
     transitivePeerDependencies:
       - '@aws-sdk/client-sso-oidc'
       - '@aws-sdk/client-sts'
@@ -4458,7 +4466,7 @@ snapshots:
       '@smithy/property-provider': 3.1.0
       '@smithy/shared-ini-file-loader': 3.1.0
       '@smithy/types': 3.0.0
-      tslib: 2.6.2
+      tslib: 2.6.3
     transitivePeerDependencies:
       - '@aws-sdk/client-sso-oidc'
       - aws-crt
@@ -4775,6 +4783,8 @@ snapshots:
 
   '@eslint/js@9.4.0': {}
 
+  '@eslint/js@9.5.0': {}
+
   '@eslint/object-schema@2.1.3': {}
 
   '@gwhitney/detect-indent@7.0.1': {}
@@ -4801,7 +4811,7 @@ snapshots:
 
   '@kwsites/file-exists@1.1.1':
     dependencies:
-      debug: 4.3.4
+      debug: 4.3.5
     transitivePeerDependencies:
       - supports-color
 
@@ -5099,15 +5109,15 @@ snapshots:
     dependencies:
       '@babel/runtime-corejs3': 7.20.13
 
-  '@rainbowatcher/eslint-config-ignore@0.8.0':
+  '@rainbowatcher/eslint-config-ignore@0.9.1':
     dependencies:
-      '@rainbowatcher/eslint-config-shared': 0.8.0
+      '@rainbowatcher/eslint-config-shared': 0.9.1
       eslint-config-flat-gitignore: 0.1.5
 
-  '@rainbowatcher/eslint-config-js@0.8.0(eslint@9.4.0)(typescript@5.4.5)':
+  '@rainbowatcher/eslint-config-js@0.9.1(eslint@9.4.0)(typescript@5.4.5)':
     dependencies:
-      '@eslint/js': 9.4.0
-      '@rainbowatcher/eslint-config-shared': 0.8.0
+      '@eslint/js': 9.5.0
+      '@rainbowatcher/eslint-config-shared': 0.9.1
       '@stylistic/eslint-plugin-js': 2.1.0(eslint@9.4.0)
       '@stylistic/eslint-plugin-jsx': 2.1.0(eslint@9.4.0)
       '@stylistic/eslint-plugin-plus': 2.1.0(eslint@9.4.0)(typescript@5.4.5)
@@ -5115,10 +5125,10 @@ snapshots:
       eslint-config-flat-gitignore: 0.1.5
       eslint-plugin-antfu: 2.3.3(eslint@9.4.0)
       eslint-plugin-import-x: 0.5.1(eslint@9.4.0)(typescript@5.4.5)
-      eslint-plugin-n: 17.8.1(eslint@9.4.0)
-      eslint-plugin-perfectionist: 2.10.0(eslint@9.4.0)(typescript@5.4.5)
+      eslint-plugin-n: 17.9.0(eslint@9.4.0)
+      eslint-plugin-perfectionist: 2.11.0(eslint@9.4.0)(typescript@5.4.5)
       eslint-plugin-regexp: 2.6.0(eslint@9.4.0)
-      eslint-plugin-unicorn: 53.0.0(eslint@9.4.0)
+      eslint-plugin-unicorn: 54.0.0(eslint@9.4.0)
       eslint-plugin-unused-imports: 4.0.0(eslint@9.4.0)
       globals: 15.4.0
     transitivePeerDependencies:
@@ -5130,22 +5140,22 @@ snapshots:
       - typescript
       - vue-eslint-parser
 
-  '@rainbowatcher/eslint-config-json@0.8.0(eslint@9.4.0)':
+  '@rainbowatcher/eslint-config-json@0.9.1(eslint@9.4.0)':
     dependencies:
-      '@rainbowatcher/eslint-config-shared': 0.8.0
+      '@rainbowatcher/eslint-config-shared': 0.9.1
       eslint: 9.4.0
       eslint-plugin-jsonc: 2.16.0(eslint@9.4.0)
 
-  '@rainbowatcher/eslint-config-shared@0.8.0':
+  '@rainbowatcher/eslint-config-shared@0.9.1':
     dependencies:
       eslint-config-flat-gitignore: 0.1.5
       eslint-flat-config-utils: 0.2.5
 
-  '@rainbowatcher/eslint-config@0.8.0(@rainbowatcher/eslint-config-ignore@0.8.0)(@rainbowatcher/eslint-config-js@0.8.0(eslint@9.4.0)(typescript@5.4.5))(@rainbowatcher/eslint-config-json@0.8.0(eslint@9.4.0))(eslint@9.4.0)':
+  '@rainbowatcher/eslint-config@0.9.1(@rainbowatcher/eslint-config-ignore@0.9.1)(@rainbowatcher/eslint-config-js@0.9.1(eslint@9.4.0)(typescript@5.4.5))(@rainbowatcher/eslint-config-json@0.9.1(eslint@9.4.0))(eslint@9.4.0)':
     dependencies:
       '@antfu/install-pkg': 0.3.3
       '@clack/prompts': 0.7.0
-      '@rainbowatcher/eslint-config-shared': 0.8.0
+      '@rainbowatcher/eslint-config-shared': 0.9.1
       detect-indent: 7.0.1
       eslint: 9.4.0
       eslint-flat-config-utils: 0.2.5
@@ -5153,9 +5163,9 @@ snapshots:
       magicast: 0.3.4
       picocolors: 1.0.1
     optionalDependencies:
-      '@rainbowatcher/eslint-config-ignore': 0.8.0
-      '@rainbowatcher/eslint-config-js': 0.8.0(eslint@9.4.0)(typescript@5.4.5)
-      '@rainbowatcher/eslint-config-json': 0.8.0(eslint@9.4.0)
+      '@rainbowatcher/eslint-config-ignore': 0.9.1
+      '@rainbowatcher/eslint-config-js': 0.9.1(eslint@9.4.0)(typescript@5.4.5)
+      '@rainbowatcher/eslint-config-json': 0.9.1(eslint@9.4.0)
 
   '@redis/bloom@1.2.0(@redis/client@1.5.16)':
     dependencies:
@@ -5704,13 +5714,13 @@ snapshots:
       '@typescript-eslint/types': 7.12.0
       eslint-visitor-keys: 3.4.3
 
-  '@yarnpkg/core@4.0.5(typanion@3.12.1)':
+  '@yarnpkg/core@4.1.0(typanion@3.12.1)':
     dependencies:
       '@arcanis/slice-ansi': 1.1.1
       '@types/semver': 7.3.13
       '@types/treeify': 1.0.0
-      '@yarnpkg/fslib': 3.0.2
-      '@yarnpkg/libzip': 3.0.1(@yarnpkg/fslib@3.0.2)
+      '@yarnpkg/fslib': 3.1.0
+      '@yarnpkg/libzip': 3.1.0(@yarnpkg/fslib@3.1.0)
       '@yarnpkg/parsers': 3.0.2
       '@yarnpkg/shell': 4.0.2(typanion@3.12.1)
       camelcase: 5.3.1
@@ -5735,14 +5745,14 @@ snapshots:
     transitivePeerDependencies:
       - typanion
 
-  '@yarnpkg/fslib@3.0.2':
+  '@yarnpkg/fslib@3.1.0':
     dependencies:
       tslib: 2.6.3
 
-  '@yarnpkg/libzip@3.0.1(@yarnpkg/fslib@3.0.2)':
+  '@yarnpkg/libzip@3.1.0(@yarnpkg/fslib@3.1.0)':
     dependencies:
       '@types/emscripten': 1.39.6
-      '@yarnpkg/fslib': 3.0.2
+      '@yarnpkg/fslib': 3.1.0
       tslib: 2.6.3
 
   '@yarnpkg/parsers@3.0.2':
@@ -5752,7 +5762,7 @@ snapshots:
 
   '@yarnpkg/shell@4.0.2(typanion@3.12.1)':
     dependencies:
-      '@yarnpkg/fslib': 3.0.2
+      '@yarnpkg/fslib': 3.1.0
       '@yarnpkg/parsers': 3.0.2
       chalk: 3.0.0
       clipanion: 4.0.0-rc.2(typanion@3.12.1)
@@ -5770,15 +5780,9 @@ snapshots:
     dependencies:
       acorn: 8.11.3
 
-  acorn-jsx@5.3.2(acorn@8.10.0):
-    dependencies:
-      acorn: 8.10.0
-
   acorn-jsx@5.3.2(acorn@8.11.3):
     dependencies:
       acorn: 8.11.3
-
-  acorn@8.10.0: {}
 
   acorn@8.11.3: {}
 
@@ -6138,6 +6142,10 @@ snapshots:
     dependencies:
       ms: 2.1.2
 
+  debug@4.3.5:
+    dependencies:
+      ms: 2.1.2
+
   decamelize-keys@1.1.1:
     dependencies:
       decamelize: 1.2.0
@@ -6262,7 +6270,7 @@ snapshots:
 
   emoji-regex@9.2.2: {}
 
-  emojibase-regex@15.3.1: {}
+  emojibase-regex@15.3.2: {}
 
   emojibase@15.3.1: {}
 
@@ -6429,7 +6437,7 @@ snapshots:
       is-glob: 4.0.3
       minimatch: 9.0.4
       semver: 7.6.2
-      tslib: 2.6.2
+      tslib: 2.6.3
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -6445,7 +6453,7 @@ snapshots:
       natural-compare: 1.4.0
       synckit: 0.6.2
 
-  eslint-plugin-n@17.8.1(eslint@9.4.0):
+  eslint-plugin-n@17.9.0(eslint@9.4.0):
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@9.4.0)
       enhanced-resolve: 5.17.0
@@ -6457,7 +6465,7 @@ snapshots:
       minimatch: 9.0.4
       semver: 7.6.2
 
-  eslint-plugin-perfectionist@2.10.0(eslint@9.4.0)(typescript@5.4.5):
+  eslint-plugin-perfectionist@2.11.0(eslint@9.4.0)(typescript@5.4.5):
     dependencies:
       '@typescript-eslint/utils': 7.12.0(eslint@9.4.0)(typescript@5.4.5)
       eslint: 9.4.0
@@ -6478,7 +6486,7 @@ snapshots:
       regexp-ast-analysis: 0.7.1
       scslre: 0.3.0
 
-  eslint-plugin-unicorn@53.0.0(eslint@9.4.0):
+  eslint-plugin-unicorn@54.0.0(eslint@9.4.0):
     dependencies:
       '@babel/helper-validator-identifier': 7.24.7
       '@eslint-community/eslint-utils': 4.4.0(eslint@9.4.0)
@@ -6563,8 +6571,8 @@ snapshots:
 
   espree@9.6.1:
     dependencies:
-      acorn: 8.10.0
-      acorn-jsx: 5.3.2(acorn@8.10.0)
+      acorn: 8.11.3
+      acorn-jsx: 5.3.2(acorn@8.11.3)
       eslint-visitor-keys: 3.4.3
 
   esprima@4.0.1: {}
@@ -6828,7 +6836,7 @@ snapshots:
       klona: 2.0.6
       moo: 0.5.2
 
-  google-auth-library@9.10.0(encoding@0.1.13):
+  google-auth-library@9.11.0(encoding@0.1.13):
     dependencies:
       base64-js: 1.5.1
       ecdsa-sig-formatter: 1.0.11
@@ -7195,7 +7203,7 @@ snapshots:
 
   jsonc-eslint-parser@2.4.0:
     dependencies:
-      acorn: 8.10.0
+      acorn: 8.11.3
       eslint-visitor-keys: 3.4.3
       espree: 9.6.1
       semver: 7.6.2
@@ -7521,6 +7529,9 @@ snapshots:
   nan@2.19.0:
     optional: true
 
+  nan@2.20.0:
+    optional: true
+
   nanoid@3.3.7: {}
 
   napi-build-utils@1.0.2:
@@ -7781,7 +7792,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier@3.3.1: {}
+  prettier@3.3.2: {}
 
   proc-log@3.0.0:
     optional: true
@@ -7842,10 +7853,10 @@ snapshots:
       strip-json-comments: 2.0.1
     optional: true
 
-  re2@1.20.12:
+  re2@1.21.3:
     dependencies:
       install-artifact-from-github: 1.3.5
-      nan: 2.19.0
+      nan: 2.20.0
       node-gyp: 10.1.0
     transitivePeerDependencies:
       - supports-color
@@ -7947,7 +7958,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@37.407.3(@aws-sdk/client-sso-oidc@3.592.0)(encoding@0.1.13)(typanion@3.12.1):
+  renovate@37.414.1(@aws-sdk/client-sso-oidc@3.592.0)(encoding@0.1.13)(typanion@3.12.1):
     dependencies:
       '@aws-sdk/client-codecommit': 3.588.0
       '@aws-sdk/client-ec2': 3.588.0
@@ -7973,7 +7984,7 @@ snapshots:
       '@renovatebot/pep440': 3.0.20
       '@renovatebot/ruby-semver': 3.0.23
       '@sindresorhus/is': 4.6.0
-      '@yarnpkg/core': 4.0.5(typanion@3.12.1)
+      '@yarnpkg/core': 4.1.0(typanion@3.12.1)
       '@yarnpkg/parsers': 3.0.2
       agentkeepalive: 4.5.0
       aggregate-error: 3.1.0
@@ -7997,7 +8008,7 @@ snapshots:
       email-addresses: 5.0.0
       emoji-regex: 10.3.0
       emojibase: 15.3.1
-      emojibase-regex: 15.3.1
+      emojibase-regex: 15.3.2
       extract-zip: 2.0.1
       find-packages: 10.0.4
       find-up: 5.0.0
@@ -8007,7 +8018,7 @@ snapshots:
       glob: 10.4.1
       global-agent: 3.0.0
       good-enough-parser: 1.1.23
-      google-auth-library: 9.10.0(encoding@0.1.13)
+      google-auth-library: 9.11.0(encoding@0.1.13)
       got: 11.8.6
       graph-data-structure: 3.5.0
       handlebars: 4.7.8
@@ -8034,7 +8045,7 @@ snapshots:
       p-queue: 6.6.2
       p-throttle: 4.1.1
       parse-link-header: 2.0.0
-      prettier: 3.3.1
+      prettier: 3.3.2
       redis: 4.6.14
       remark: 13.0.0
       remark-github: 10.1.0
@@ -8043,7 +8054,7 @@ snapshots:
       semver-stable: 3.0.0
       semver-utils: 1.1.4
       shlex: 2.1.2
-      simple-git: 3.24.0
+      simple-git: 3.25.0
       slugify: 1.6.6
       source-map-support: 0.5.21
       toml-eslint-parser: 0.9.3
@@ -8058,7 +8069,7 @@ snapshots:
     optionalDependencies:
       better-sqlite3: 9.6.0
       openpgp: 5.11.1
-      re2: 1.20.12
+      re2: 1.21.3
     transitivePeerDependencies:
       - '@aws-sdk/client-sso-oidc'
       - aws-crt
@@ -8212,11 +8223,11 @@ snapshots:
       simple-concat: 1.0.1
     optional: true
 
-  simple-git@3.24.0:
+  simple-git@3.25.0:
     dependencies:
       '@kwsites/file-exists': 1.1.1
       '@kwsites/promise-deferred': 1.1.1
-      debug: 4.3.4
+      debug: 4.3.5
     transitivePeerDependencies:
       - supports-color
 
@@ -8363,7 +8374,7 @@ snapshots:
 
   synckit@0.6.2:
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.6.3
 
   tapable@2.2.1: {}
 
@@ -8448,8 +8459,6 @@ snapshots:
       typescript: 5.4.5
 
   tslib@1.14.1: {}
-
-  tslib@2.6.2: {}
 
   tslib@2.6.3: {}
 
