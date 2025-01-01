@@ -17,6 +17,6 @@
         "@rainbowatcher/eslint-config-ignore": "^0.19.0",
         "@rainbowatcher/eslint-config-js": "^0.19.0",
         "@rainbowatcher/eslint-config-json": "^0.19.0",
-        "renovate": "^39.86.1"
+        "renovate": "^39.86.5"
     }
 }
