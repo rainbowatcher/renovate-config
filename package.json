@@ -13,10 +13,10 @@
         "test": "renovate-config-validator ./default.json"
     },
     "devDependencies": {
-        "@rainbowatcher/eslint-config": "^0.19.0",
-        "@rainbowatcher/eslint-config-ignore": "^0.19.0",
-        "@rainbowatcher/eslint-config-js": "^0.19.0",
-        "@rainbowatcher/eslint-config-json": "^0.19.0",
+        "@rainbowatcher/eslint-config": "^0.19.1",
+        "@rainbowatcher/eslint-config-ignore": "^0.19.1",
+        "@rainbowatcher/eslint-config-js": "^0.19.1",
+        "@rainbowatcher/eslint-config-json": "^0.19.1",
         "renovate": "^39.99.0"
     }
 }
