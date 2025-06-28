@@ -21,8 +21,8 @@ importers:
         specifier: ^0.21.1
         version: 0.21.1(eslint@9.10.0)
       renovate:
-        specifier: ^41.14.0
-        version: 41.14.0(encoding@0.1.13)(typanion@3.12.1)
+        specifier: ^41.16.1
+        version: 41.16.1(encoding@0.1.13)(typanion@3.12.1)
 
 packages:
 
@@ -1368,10 +1368,6 @@ packages:
     resolution: {integrity: sha512-ootN5bvXbIQI9rW94+QsXN5eROtXWwew6NkdGxIRpS/UFWRggL0G5Al7a9GTBFEsuvVhJ2K3CntIIVt7L2ILhA==}
     hasBin: true
 
-  cross-spawn@7.0.3:
-    resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
-    engines: {node: '>= 8'}
-
   cross-spawn@7.0.6:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
@@ -1822,10 +1818,6 @@ packages:
 
   for-each@0.3.3:
     resolution: {integrity: sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw==}
-
-  foreground-child@3.1.1:
-    resolution: {integrity: sha512-TMKDUnIte6bfb5nWv7V/caI169OHgvwjb7V4WkeUvbQQdjr5rWKqHFiKWb/fcOwB+CzBT+qbWjvj+DVwRskpIg==}
-    engines: {node: '>=14'}
 
   foreground-child@3.3.1:
     resolution: {integrity: sha512-gIXjKqtFuWEgzFRJA9WCQeSJLZDjgJUOMCMzxtvFq/37KojM1BFGufqsCy0r4qSQmYLsZYMeyRqzIWOMup03sw==}
@@ -3006,8 +2998,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.14.0:
-    resolution: {integrity: sha512-PLNUjQINW1Ljlzmcb5nBoyv4ETIVvyJcxZ143j4AAo1Fjc3GskpDH3outwAzfQSE/rLwbtsKlKt3lBaI3EBzxA==}
+  renovate@41.16.1:
+    resolution: {integrity: sha512-mgZ7O+EwK4+qykwxwaLLMIPtZowtDN39Gh23vaku4Xm6buyQymD/VVGnuKZG/IhYzfeisZGI8fO6VujbK/sN8w==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -5425,7 +5417,7 @@ snapshots:
       chalk: 4.1.2
       ci-info: 4.1.0
       clipanion: 4.0.0-rc.2(typanion@3.12.1)
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.6
       diff: 5.2.0
       dotenv: 16.3.1
       fast-glob: 3.3.2
@@ -5464,7 +5456,7 @@ snapshots:
       '@yarnpkg/parsers': 3.0.3
       chalk: 4.1.2
       clipanion: 4.0.0-rc.2(typanion@3.12.1)
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.6
       fast-glob: 3.3.2
       micromatch: 4.0.5
       tslib: 2.8.1
@@ -5738,12 +5730,6 @@ snapshots:
   croner@9.1.0: {}
 
   cronstrue@2.61.0: {}
-
-  cross-spawn@7.0.3:
-    dependencies:
-      path-key: 3.1.1
-      shebang-command: 2.0.0
-      which: 2.0.2
 
   cross-spawn@7.0.6:
     dependencies:
@@ -6088,7 +6074,7 @@ snapshots:
       '@nodelib/fs.walk': 1.2.8
       ajv: 6.12.6
       chalk: 4.1.2
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.6
       debug: 4.4.1
       escape-string-regexp: 4.0.0
       eslint-scope: 8.0.2
@@ -6241,11 +6227,6 @@ snapshots:
     dependencies:
       is-callable: 1.2.7
 
-  foreground-child@3.1.1:
-    dependencies:
-      cross-spawn: 7.0.3
-      signal-exit: 4.0.2
-
   foreground-child@3.3.1:
     dependencies:
       cross-spawn: 7.0.6
@@ -6340,7 +6321,7 @@ snapshots:
 
   glob@10.4.5:
     dependencies:
-      foreground-child: 3.1.1
+      foreground-child: 3.3.1
       jackspeak: 3.1.2
       minimatch: 9.0.5
       minipass: 7.1.2
@@ -7619,7 +7600,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.14.0(encoding@0.1.13)(typanion@3.12.1):
+  renovate@41.16.1(encoding@0.1.13)(typanion@3.12.1):
     dependencies:
       '@aws-sdk/client-codecommit': 3.821.0
       '@aws-sdk/client-ec2': 3.821.0
