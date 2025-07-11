@@ -1,7 +1,7 @@
 {
     "name": "@rainbowatcher/renovate-config",
     "version": "0.0.0",
-    "packageManager": "pnpm@10.12.4",
+    "packageManager": "pnpm@10.13.1",
     "description": "Renovate Bot config for rainbowatcher repositories",
     "license": "MIT",
     "repository": "rainbowatcher/renovate-config",
@@ -17,6 +17,6 @@
         "@rainbowatcher/eslint-config-ignore": "^0.21.1",
         "@rainbowatcher/eslint-config-js": "^0.21.1",
         "@rainbowatcher/eslint-config-json": "^0.21.1",
-        "renovate": "^41.17.2"
+        "renovate": "^41.30.3"
     }
 }
