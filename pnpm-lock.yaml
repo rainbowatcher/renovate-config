@@ -21,8 +21,8 @@ importers:
         specifier: ^0.21.1
         version: 0.21.1(eslint@9.10.0)
       renovate:
-        specifier: ^41.43.0
-        version: 41.43.0(encoding@0.1.13)(typanion@3.12.1)
+        specifier: ^41.43.6
+        version: 41.43.6(encoding@0.1.13)(typanion@3.12.1)
 
 packages:
 
@@ -2725,8 +2725,8 @@ packages:
   once@1.4.0:
     resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
 
-  openpgp@6.1.1:
-    resolution: {integrity: sha512-V/DXZ5AGCz3q4X8psUSc3q4SxnH/bfICaTSpNcla7wvBFhrxa9/ajm31rtMwZ1qj7Fu2oMpfX6ZcxKmTBlb6Yg==}
+  openpgp@6.2.0:
+    resolution: {integrity: sha512-zKbgazxMeGrTqUEWicKufbdcjv2E0om3YVxw+I3hRykp8ODp+yQOJIDqIr1UXJjP8vR2fky3bNQwYoQXyFkYMA==}
     engines: {node: '>= 18.0.0'}
 
   optionator@0.9.4:
@@ -3030,8 +3030,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.43.0:
-    resolution: {integrity: sha512-GxL5KpylI6O0mMROEJ1X1hS/ubjLlkTsCPMpwF68e4XjLjAmJUC4xiNLKzpG+wli8fg/pJx+D/nwvninbcYStg==}
+  renovate@41.43.6:
+    resolution: {integrity: sha512-AlNnE84Ld+2+b2BOUzD58DtOP0P34FXD6z4nV2e2Hyv38BwjKeHUvz2Hh8kdUdRJvmXwzSqpfdUosDG4Fum9Bw==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -7328,7 +7328,7 @@ snapshots:
     dependencies:
       wrappy: 1.0.2
 
-  openpgp@6.1.1:
+  openpgp@6.2.0:
     optional: true
 
   optionator@0.9.4:
@@ -7681,7 +7681,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.43.0(encoding@0.1.13)(typanion@3.12.1):
+  renovate@41.43.6(encoding@0.1.13)(typanion@3.12.1):
     dependencies:
       '@aws-sdk/client-codecommit': 3.840.0
       '@aws-sdk/client-ec2': 3.840.0
@@ -7802,7 +7802,7 @@ snapshots:
       zod: 3.25.76
     optionalDependencies:
       better-sqlite3: 12.2.0
-      openpgp: 6.1.1
+      openpgp: 6.2.0
       re2: 1.22.1
     transitivePeerDependencies:
       - aws-crt
