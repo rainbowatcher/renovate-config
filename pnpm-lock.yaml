@@ -21,8 +21,8 @@ importers:
         specifier: ^0.21.1
         version: 0.21.1(eslint@9.10.0)
       renovate:
-        specifier: ^42.65.1
-        version: 42.65.1(encoding@0.1.13)(typanion@3.12.1)
+        specifier: ^42.66.3
+        version: 42.66.3(encoding@0.1.13)(typanion@3.12.1)
 
 packages:
 
@@ -3073,8 +3073,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.65.1:
-    resolution: {integrity: sha512-iL1RpN5crVt6u3FS1gVDZ7Dz9LoaZjP/P2+S3rYD3hIP22i7gfDWwN3SmFeDh4bofH8Laif3jXCU6g+vY5eAfQ==}
+  renovate@42.66.3:
+    resolution: {integrity: sha512-aGBvIocmZ8cACANCMQnrAskxJ3uTOpbOevs6QxYz3T0w7i/M6voIs9HyFfomdZcdi2nCp/R6FmOYsHZbFXDHUQ==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -7852,7 +7852,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.65.1(encoding@0.1.13)(typanion@3.12.1):
+  renovate@42.66.3(encoding@0.1.13)(typanion@3.12.1):
     dependencies:
       '@aws-sdk/client-codecommit': 3.940.0
       '@aws-sdk/client-ec2': 3.940.0
