@@ -27,6 +27,23 @@
             "schedule": [
                 "after 2am and before 3am"
             ]
+        },
+        {
+            "description": "Don't update Node.js version (package.json, .nvmrc, .node-version, .tool-versions, mise, setup-node, Docker)",
+            "matchDatasources": [
+                "docker",
+                "github-releases",
+                "node-version"
+            ],
+            "matchPackageNames": [
+                "/(?:^|/)node$/",
+                "actions/node-versions",
+                "!calico/node",
+                "!docker.io/calico/node",
+                "!kindest/node",
+                "!docker.io/kindest/node"
+            ],
+            "enabled": false
         }
     ]
 }
