@@ -9,6 +9,7 @@
         "enabled": false
     },
     "rangeStrategy": "bump",
+    "minimumReleaseAge": "24h",
     "npm": {
         "commitMessageTopic": "{{prettyDepType}} {{depName}}"
     },
